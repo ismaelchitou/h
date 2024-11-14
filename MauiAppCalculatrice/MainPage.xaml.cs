@@ -1,25 +1,49 @@
-﻿namespace MauiAppCalculatrice
+﻿using System;
+using System.Data;
+
+namespace MauiAppCalculatrice
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void Button_Clicked_Supp(object sender, EventArgs e)
         {
-            count++;
+            expLabel.Text = "";
+        }
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+        private void Button_Clicked_Egale(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(expLabel.Text))
+            {
+                // Pour évaluer une expression mathématique
+                DataTable dt = new DataTable();
+                var v = dt.Compute(expLabel.Text, "");
+                expLabel.Text = $"{v}";
+            }
+        }
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            expLabel.Text += "1";
+        }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+            expLabel.Text += "2";
+        }
+
+        private void Button_Clicked_3(object sender, EventArgs e)
+        {
+            expLabel.Text += "3";
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
-
 }

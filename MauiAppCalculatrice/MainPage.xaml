@@ -55,7 +55,7 @@
 
             <!-- Buttons Row 5 -->
             <Button Text="0" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Clicked="Button_Clicked" HorizontalOptions="FillAndExpand" />
-            <Button Text="." Grid.Row="4" Grid.Column="2" Clicked="Button_Clicked" />
+            <Button Text="." Grid.Row="4" Grid.Column="2" Clicked="Button_Clicked_Supp" />
             <Button Text="=" Grid.Row="4" Grid.Column="3" Clicked="Button_Clicked_Egale" />
         </Grid>
     </StackLayout>
