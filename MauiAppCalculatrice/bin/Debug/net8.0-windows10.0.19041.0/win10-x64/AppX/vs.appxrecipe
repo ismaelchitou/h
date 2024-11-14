@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\Dell\source\repos\MauiAppCalculatrice\MauiAppCalculatrice\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-14T03:11:33.331</Modified>
+      <Modified>2024-11-14T05:04:32.141</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\source\repos\MauiAppCalculatrice\MauiAppCalculatrice\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiAppCalculatrice.dll">
       <PackagePath>MauiAppCalculatrice.dll</PackagePath>
-      <Modified>2024-11-14T03:11:30.662</Modified>
+      <Modified>2024-11-14T05:04:30.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\source\repos\MauiAppCalculatrice\MauiAppCalculatrice\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiAppCalculatrice.exe</PackagePath>
-      <Modified>2024-11-14T03:11:30.681</Modified>
+      <Modified>2024-11-14T05:04:30.883</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dell\source\repos\MauiAppCalculatrice\MauiAppCalculatrice\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
